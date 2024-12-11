@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8D493687-758A-4A7C-9DCD-765F4C81359B}</ProjectGuid>
+    <ProjectGuid>{862DDF2C-7E2B-4A41-951C-29C3C725D109}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp1</RootNamespace>
-    <AssemblyName>ConsoleApp1</AssemblyName>
+    <RootNamespace>ConsoleApp2</RootNamespace>
+    <AssemblyName>ConsoleApp2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.MethodOverloadingDemo</StartupObject>
+    <StartupObject>ConsoleApp2.Class1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,17 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccessDemo.cs" />
-    <Compile Include="AccessDemo1.cs" />
-    <Compile Include="AccessDemo2.cs" />
-    <Compile Include="InheritanceDemo.cs" />
-    <Compile Include="InheritanceDemoChild.cs" />
-    <Compile Include="MethodOverloadingDemo.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleApp1\ConsoleApp1.csproj">
+      <Project>{8d493687-758a-4a7c-9dcd-765f4c81359b}</Project>
+      <Name>ConsoleApp1</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
