@@ -34,6 +34,8 @@ namespace ConsoleApp1
         {
             MethodOverloadingDemo obj= new MethodOverloadingDemo();
             obj.Test();
+            obj.Test(10);
+            obj.Test("Test");
             Console.ReadLine();
         }
     }

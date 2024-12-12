@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.MethodOverloadingDemo</StartupObject>
+    <StartupObject>ConsoleApp1.LoadChild1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="AccessDemo2.cs" />
     <Compile Include="InheritanceDemo.cs" />
     <Compile Include="InheritanceDemoChild.cs" />
+    <Compile Include="LoadParent.cs" />
     <Compile Include="MethodOverloadingDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
