@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.MethodHidingChildDemo</StartupObject>
+    <StartupObject>ConsoleApp1.TestClass</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,9 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbsParent.cs" />
     <Compile Include="AccessDemo.cs" />
     <Compile Include="AccessDemo1.cs" />
     <Compile Include="AccessDemo2.cs" />
+    <Compile Include="CommonFigure.cs" />
     <Compile Include="InheritanceDemo.cs" />
     <Compile Include="InheritanceDemoChild.cs" />
     <Compile Include="LoadParent.cs" />
