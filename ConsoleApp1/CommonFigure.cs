@@ -76,7 +76,6 @@ namespace ConsoleApp1
             Cone cn = new Cone(7.3, 9.4);
             Console.WriteLine("Area of Cone" + cn.GetArea());
             Console.ReadLine();
-
         }
     }
 }
