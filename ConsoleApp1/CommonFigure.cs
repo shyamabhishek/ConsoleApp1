@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
@@ -12,7 +8,7 @@ namespace ConsoleApp1
         public const float Pi = 3.14f;
         public abstract double GetArea();
     }
-    public class Rectangle : CommonFigure 
+    public class Rectangle : CommonFigure
     {
         public Rectangle(double width, double height)
         {
@@ -34,7 +30,7 @@ namespace ConsoleApp1
 
         public override double GetArea()
         {
-           return Pi * radius*radius;
+            return Pi * radius * radius;
         }
     }
     public class Cone : CommonFigure
@@ -47,7 +43,7 @@ namespace ConsoleApp1
 
         public override double GetArea()
         {
-            return Pi * radius * radius + Pi * radius* height ;
+            return Pi * radius * radius + Pi * radius * height;
         }
     }
     public class Triangle : CommonFigure
@@ -60,7 +56,7 @@ namespace ConsoleApp1
 
         public override double GetArea()
         {
-            return 0.5 *width * height;
+            return 0.5 * width * height;
         }
     }
     public class TestClass
@@ -76,6 +72,7 @@ namespace ConsoleApp1
             Cone cn = new Cone(7.3, 9.4);
             Console.WriteLine("Area of Cone" + cn.GetArea());
             Console.ReadLine();
+
         }
     }
 }
