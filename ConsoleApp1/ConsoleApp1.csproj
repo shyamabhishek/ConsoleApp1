@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.TestMultipleInheritance.MIH</StartupObject>
+    <StartupObject>ConsoleApp1.EnumTestDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="AccessDemo1.cs" />
     <Compile Include="AccessDemo2.cs" />
     <Compile Include="CommonFigure.cs" />
+    <Compile Include="EnumTestDemo.cs" />
     <Compile Include="InheritanceDemo.cs" />
     <Compile Include="InheritanceDemoChild.cs" />
     <Compile Include="ITestInterface.cs" />
