@@ -17,6 +17,7 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Test Method Called");
         }
+        //public static void Show() => Console.WriteLine("testing");
         //public void Test2()
         //{
         //    Console.WriteLine("Test 2 Method Called");
@@ -25,6 +26,7 @@ namespace ConsoleApp1
         {
             StaticDemo.Test();
             StaticDemo.Name = "Testing Name";
+            Console.WriteLine(StaticDemo.Name);
             Console.ReadLine();
         }
     }
