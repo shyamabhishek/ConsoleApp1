@@ -12,7 +12,7 @@ namespace ConsoleApp1
         public static void Test1()
         {
             for (int i = 0; i <= 100; i++)
-            {
+            { 
                 Console.WriteLine("Test 1 " + i);
             }
             Console.WriteLine("Test 1 Method Exit");
@@ -44,9 +44,9 @@ namespace ConsoleApp1
         public static void Test4(int number, string message)
         {
             //Console.WriteLine("Test 4 Received: Number = , Message = ");
-            for (int i = 0; i <= 100; i++)
+            for (int i = 0; i <= number; i++)
             {
-                Console.WriteLine("Message " + number, "Number " + message);
+                Console.WriteLine("Number " + number, "Message " + message);
             }
             Console.WriteLine("Test 4 Method Exit");
         }
@@ -61,11 +61,11 @@ namespace ConsoleApp1
             Thread T1 = new Thread(Test1);
             Thread T2 = new Thread(Test2);
             Thread T3 = new Thread(Test3);
-            Thread T4 = new Thread(() => Test4(20, "Hello from Test4"));
+            Thread T4 = new Thread(() => Test4(40, "Hello from Test4"));
             T1.Start();
             T2.Start();
             T3.Start();
-            T4.Start();    
+            T4.Start();
             Console.WriteLine("Main Thread Exit");
             Console.ReadLine();
         }
