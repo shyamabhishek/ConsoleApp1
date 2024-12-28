@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.ThreadPriorityDemo</StartupObject>
+    <StartupObject>ConsoleApp1.ListCollectionDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,14 +51,17 @@
     <Compile Include="AccessDemo1.cs" />
     <Compile Include="AccessDemo2.cs" />
     <Compile Include="AnonymousMethodDemo.cs" />
+    <Compile Include="CollectionDemo1.cs" />
     <Compile Include="CommonFigure.cs" />
     <Compile Include="DelegateDemo.cs" />
     <Compile Include="DemoStatic.cs" />
     <Compile Include="EnumTestDemo.cs" />
     <Compile Include="ExtentionDemo1.cs" />
+    <Compile Include="HashTableDemo.cs" />
     <Compile Include="InheritanceDemo.cs" />
     <Compile Include="InheritanceDemoChild.cs" />
     <Compile Include="ITestInterface.cs" />
+    <Compile Include="ListCollectionDemo.cs" />
     <Compile Include="LoadParent.cs" />
     <Compile Include="MethodHidingDemo.cs" />
     <Compile Include="MethodOverloadingDemo.cs" />
