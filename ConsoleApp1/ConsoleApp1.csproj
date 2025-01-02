@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.ListCollectionDemo</StartupObject>
+    <StartupObject>ConsoleApp1.TestGeneric</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,8 +55,11 @@
     <Compile Include="CommonFigure.cs" />
     <Compile Include="DelegateDemo.cs" />
     <Compile Include="DemoStatic.cs" />
+    <Compile Include="DictionaryCollectionDemo.cs" />
     <Compile Include="EnumTestDemo.cs" />
     <Compile Include="ExtentionDemo1.cs" />
+    <Compile Include="GenericDemo2.cs" />
+    <Compile Include="GenericsDemo.cs" />
     <Compile Include="HashTableDemo.cs" />
     <Compile Include="InheritanceDemo.cs" />
     <Compile Include="InheritanceDemoChild.cs" />
