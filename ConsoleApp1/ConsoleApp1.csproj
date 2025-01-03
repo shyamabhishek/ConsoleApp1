@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.InterfaceShortedListDemo</StartupObject>
+    <StartupObject>ConsoleApp1.StringandStringBuilderDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -78,6 +78,7 @@
     <Compile Include="ShortedListDemo.cs" />
     <Compile Include="SortedListUsingComparison.cs" />
     <Compile Include="StaticDemo.cs" />
+    <Compile Include="StringandStringBuilderDemo.cs" />
     <Compile Include="TestExtentionMethod.cs" />
     <Compile Include="TestMultipleInheritance.cs" />
     <Compile Include="ThreadCastDemo.cs" />

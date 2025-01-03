@@ -20,7 +20,7 @@ namespace ConsoleApp1
 
         public bool CompareVal<T>(T i, T j)
         {
-            if(i.Equals(j)) return true; return false;
+            if (i.Equals(j)) return true; return false;
         }
 
         static void Main()
